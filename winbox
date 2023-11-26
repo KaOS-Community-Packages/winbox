@@ -3,4 +3,5 @@ export WINEARCH=win64
 export WINEDLLOVERRIDES="mscoree=" # disable mono
 export WINEDEBUG=-all
 
+wineboot -u
 wine64 /usr/share/winbox/winbox.exe "$@"
