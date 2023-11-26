@@ -1,7 +1,7 @@
 post_install() {
     update-desktop-database -q
-    xdg-icon-resource forceupdate
     xdg-user-dirs-update --force
+    xdg-icon-resource forceupdate
 }
 
 post_upgrade() {
