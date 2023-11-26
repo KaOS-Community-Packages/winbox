@@ -1,6 +1,7 @@
 post_install() {
     update-desktop-database -q
     xdg-icon-resource forceupdate
+    wineboot -u
 }
 
 post_upgrade() {
